@@ -1,0 +1,397 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Hüseyin",
+      "surname": "Özkaya",
+      "email": "hozkaya93@gmail.com",
+      "role": "Employee",
+      "managerId": 10
+    },
+    {
+      "id": 10,
+      "name": "Furkan",
+      "surname": "Aydın",
+      "email": "furkanaydin@gmail.com",
+      "role": "Manager"
+    }
+  ],
+  "issues": [
+    {
+      "id": 1,
+      "name": "Data Analytic"
+    },
+    {
+      "id": 2,
+      "name": "Data Engineer"
+    },
+    {
+      "id": 3,
+      "name": "Data Science"
+    }
+  ],
+  "levels": [
+    {
+      "id": 1,
+      "name": "Associate Practitioner (L1) Band 3/4"
+    },
+    {
+      "id": 2,
+      "name": "Practitioner (L2) Band 5/6"
+    },
+    {
+      "id": 3,
+      "name": "Senior Practitioner (L3) Band 7/8a"
+    },
+    {
+      "id": 4,
+      "name": "Advanced Practitioner (L4) Band 8b/8c"
+    },
+    {
+      "id": 5,
+      "name": "Leading Practitioner (L5) Band 8d/9"
+    }
+
+  ],
+  "sections": [
+    {
+      "id": 1,
+      "issueId": 1,
+      "name" : "DAC1",
+      "description" : "DAC1, Analyse data for information and/or performance measurement within the context of the relevant heath & care environment"
+    },
+    {
+      "id": 2,
+      "issueId": 1,
+      "name" : "DAC2",
+      "description" : "DAC2, Employ applicable data sources to produce valid, verifiable and replicable analyses"
+
+    },
+    {
+      "id": 3,
+      "issueId": 1,
+      "name" : "DAC3",
+      "description" : "DAC3, Apply relevant software and numeracy skills with a range of analytical techniques"
+    },
+    {
+      "id": 4,
+      "issueId": 1,
+      "name" : "DAC4",
+      "description" : "DAC3, Apply relevant software and numeracy skills with a range of analytical techniques"
+    },
+    {
+      "id": 5,
+      "issueId": 1,
+      "name" : "DAC5",
+      "description" : "DAC5, Generate and communicate insight verbally, visually and in writing to a variety of information consumers"
+    },
+    {
+      "id": 6,
+      "issueId": 1,
+      "name" : "DAC6",
+      "description" : "DAC6, Engage in continuous skills development, exhibit professionalism and seek out and share emerging best practice"
+    },
+    {
+      "id": 7,
+      "issueId": 2,
+      "name" : "DEC1",
+      "description" : "DEC1, Communication Skills"
+    },
+    {
+      "id": 8,
+      "issueId": 2,
+      "name" : "DEC2",
+      "description" : "DEC2, Data Analysis & Analytics"
+    },
+    {
+      "id": 9,
+      "issueId": 2,
+      "name" : "DEC3",
+      "description" : "DEC3, Data Modelling"
+    },
+    {
+      "id": 10,
+      "issueId": 2,
+      "name" : "DEC4",
+      "description" : "DEC4, Data Ingestion"
+    },
+    {
+      "id": 11,
+      "issueId": 2,
+      "name" : "DEC5",
+      "description" : "DEC5, Metadata Management"
+    },
+    {
+      "id": 12,
+      "issueId": 2,
+      "name" : "DEC6",
+      "description" : "DEC5, Metadata Management"
+    },
+    {
+      "id": 13,
+      "issueId": 2,
+      "name" : "DEC7",
+      "description" : "DEC7, Technical Understanding & Innovation"
+    },
+    {
+      "id": 14,
+      "issueId": 3,
+      "name" : "DSC1",
+      "description" : "DSC1, Analysis Skills"
+    },
+    {
+      "id": 15,
+      "issueId": 3,
+      "name" : "DSC2",
+      "description" : "DSC2, Professional Standards, Quality & Ethics"
+    },
+    {
+      "id": 16,
+      "issueId": 3,
+      "name" : "DSC3",
+      "description" : "DSC3, Communicating Data Science for Impact"
+    },
+    {
+      "id": 17,
+      "issueId": 3,
+      "name" : "DSC4",
+      "description" : "DSC4, Innovation"
+    },
+    {
+      "id": 18,
+      "issueId": 3,
+      "name" : "DSC5",
+      "description" : "DSC5, Data Preparation/Wrangling"
+    },
+    {
+      "id": 19,
+      "issueId": 3,
+      "name" : "DSC6",
+      "description" : "DSC6, Computer Programming"
+    }
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "levelId": 1,
+      "issueId": 1,
+      "sectionId" : 1,
+      "question": "You apply basic techniques to transform data into information for your audience."
+    },
+    {
+      "id": 2,
+      "levelId": 1,
+      "issueId": 1,
+      "sectionId" : 1,
+      "question": "You question the data and your own analysis. "
+    },
+    {
+      "id": 3,
+      "levelId": 1,
+      "issueId": 1,
+      "sectionId" : 1,
+      "question": "You can recognise patterns, outliers, data quality issues and whether data and analysis agree with established practice and expectations."
+    },
+    {
+      "id": 4,
+      "levelId": 1,
+      "issueId": 1,
+      "sectionId" : 1,
+      "question": "You understand the importance of performance measurement to the business and its objectives"
+    },
+    {
+      "id": 5,
+      "levelId": 1,
+      "issueId": 1,
+      "sectionId" : 2,
+      "question": "You understand the data sources for your work; their types, provenance, context, storage and 'owners'"
+    },
+    {
+      "id": 6,
+      "levelId": 1,
+      "issueId": 1,
+      "sectionId" : 2,
+      "question": "You recognize basic issues of data quality and can take action with guidance to prevent or counteract them"
+    },
+    {
+      "id": 7,
+      "levelId": 1,
+      "issueId": 1,
+      "sectionId" : 2,
+      "question": "You understand whether data is 'fit for purpose' and can sense check data and analysis."
+    },
+    {
+      "id": 8,
+      "levelId": 1,
+      "issueId": 1,
+      "sectionId" : 2,
+      "question": "You approach data and analysis with curiosity and ask questions of the data and its context."
+    },
+    {
+      "id": 9,
+      "levelId": 1,
+      "issueId": 1,
+      "sectionId" : 2,
+      "question": "You perform data extraction and manipulation. "
+    },
+    {
+      "id": 10,
+      "levelId": 1,
+      "issueId": 1,
+      "sectionId" : 2,
+      "question": "You understand how to summarise data and can explain what the different measures mean."
+    },
+    {
+      "id": 11,
+      "levelId": 1,
+      "issueId": 1,
+      "sectionId" : 2,
+      "question": "You understand how to plot data visually to display snapshots, time series and variance."
+    },
+    {
+      "id": 12,
+      "levelId": 1,
+      "issueId": 1,
+      "sectionId" : 2,
+      "question": "You can follow and contribute to practices and procedures describing the production of regular analyses and reports."
+    },
+    {
+      "id": 13,
+      "levelId": 1,
+      "issueId": 1,
+      "sectionId" : 2,
+      "question": "You are aware of the stringent data governance requirements in healthcare environments and follow all data security procedures as directed locally and nationally."
+    },
+    {
+      "id": 14,
+      "levelId": 1,
+      "issueId": 1,
+      "sectionId" : 3,
+      "question": "You are numerate and computer literate"
+    },
+    {
+      "id": 15,
+      "levelId": 1,
+      "issueId": 1,
+      "sectionId" : 3,
+      "question": "You have a functional knowledge of relevant tools, applications and systems used in your organisation."
+    },
+    {
+      "id": 16,
+      "levelId": 1,
+      "issueId": 1,
+      "sectionId" : 3,
+      "question": "You are comfortable conducting simple analyses using descriptive statistics."
+    },
+    {
+      "id": 17,
+      "levelId": 1,
+      "issueId": 1,
+      "sectionId" : 3,
+      "question": "You show aptitude and willingness to learn further."
+    },
+    {
+      "id": 18,
+      "levelId": 1,
+      "issueId": 1,
+      "sectionId" : 4,
+      "question": "You are able to identify sources of information to help you complete assigned projects whilst using your own initiative to show the most efficient way to complete daily tasks."
+    },
+    {
+      "id": 19,
+      "levelId": 1,
+      "issueId": 1,
+      "sectionId" : 4,
+      "question": "You are able to work with the requestor of the analysis to understand the underlying question and explain it to colleagues."
+    },
+    {
+      "id": 20,
+      "levelId": 1,
+      "issueId": 1,
+      "sectionId" : 5,
+      "question": "You understand the appropriate media to communicate findings and you shape communications relevant to the audience and their needs."
+    },
+    {
+      "id": 21,
+      "levelId": 1,
+      "issueId": 1,
+      "sectionId" : 5,
+      "question": "You can define the context for your findings and can give appropriate recommendations"
+    },
+    {
+      "id": 22,
+      "levelId": 1,
+      "issueId": 1,
+      "sectionId" : 6,
+      "question": "You actively engage with members of the department in an enthusiastic but patient manner."
+    },
+    {
+      "id": 22,
+      "levelId": 1,
+      "issueId": 1,
+      "sectionId" : 6,
+      "question": "You build instructions into working on your own initiative whilst confirming changes with senior colleagues."
+    },
+    {
+      "id": 23,
+      "levelId": 1,
+      "issueId": 1,
+      "sectionId" : 6,
+      "question": "You are able to demonstrate mindfulness of other people's pressures and priorities."
+    },
+    {
+      "id": 24,
+      "levelId": 1,
+      "issueId": 1,
+      "sectionId" : 6,
+      "question": "You present an openness and willingness to learn from those around you and seek out opportunities to do so."
+    },
+    {
+      "id": 25,
+      "levelId": 1,
+      "issueId": 1,
+      "sectionId" : 6,
+      "question": "You strive to demonstrate professional values at all times"
+    }
+
+
+  ],
+  "answeredQuestions": [
+    {
+      "id": 1,
+      "questionId": 3,
+      "issueId" : 1,
+      "levelId" : 1,
+      "sectionId": 1,
+      "userId": 1,
+      "answer": "Y"
+    },
+    {
+      "id": 2,
+      "questionId": 4,
+      "issueId" : 1,
+      "userId": 1,
+      "levelId" : 1,
+      "sectionId": 1,
+      "answer": "Y"
+    },
+    {
+      "id": 3,
+      "questionId": 5,
+      "issueId" : 1,
+      "userId": 1,
+      "levelId" : 1,
+      "sectionId": 1,
+      "answer": "Y"
+    },
+    {
+      "id": 4,
+      "questionId": 8,
+      "issueId" : 1,
+      "userId": 1,
+      "levelId" : 1,
+      "sectionId": 1,
+      "answer": "Y"
+    }
+  ]
+}
